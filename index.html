@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset = "utf-8">
+        <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="page-enter" content="blendTrans(duration=0.3)">
+		<meta http-equiv="page-exit" content="blendTrans(duration=0.3)">
+        
+        <meta property="fb:app_id" content="1900253010253858" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="양나혜" />
+        <meta property="og:url" content="www.fillroom2017.com" />
+        <meta property="og:description" content="도전과제!!" />
+        <meta property="og:image" content="image/logo_sumnail.jpg" />
+        <link rel="shortcut icon" href="image/icon.ico">
+		<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+        <link href="css/bootstrap.css" rel="stylesheet" />
+         <!-- Resource style -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+        
+        <script src="js/modernizr.js"></script>  <!--Modernizr -->
+  		<script src="js/jquery-2.1.1.js"></script>
+		<script src="js/jquery.mixitup.min.js"></script>
+		<script src="js/filter.js"></script> 
+		<title>도전과제</title>
+		<style>
+        	body { padding-top: 70px; }
+    	</style>
+   
+	</head>
+
+	<body>       
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="container"> 
+      
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+			<a class="navbar-brand" href="index.html"><img src="image/logo.jpg" height="40px" onmouseover="this.src='image/logo_focus.png'" onmouseout="this.src='image/logo.jpg'" /></a>
+           	</div>
+		
+	
+      <!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse  navbar-ex1-collapse">
+				<ul class="nav navbar-nav navbar-right ">			
+				    <li >
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+								<div id="id01" class="modal">
+								  
+								  <form class="modal-content animate" action="/action_page.php">
+									
+
+									<div class="container">
+									  <label><b>Username</b></label>
+									  <input type="text" placeholder="Enter Username" name="uname" required>
+
+									  <label><b>Password</b></label>
+									  <input type="password" placeholder="Enter Password" name="psw" required>
+										
+									  <button type="submit">Login</button>
+									  <input type="checkbox" checked="checked"> Remember me
+									</div>
+
+									<div class="container" style="background-color:#f1f1f1">
+									  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+									  <span class="psw">Forgot <a href="#">password?</a></span>
+									</div>
+								  </form>
+								</div>
+								
+								<script>
+								// Get the modal
+								var modal = document.getElementById('id01');
+
+								// When the user clicks anywhere outside of the modal, close it
+								window.onclick = function(event) {
+									if (event.target == modal) {
+										modal.style.display = "none";
+									}
+								}
+								</script>
+				  </li>	
+				  <li class="dropdown" >
+					<a class="dropdown-toggle"  href="challenge/challengeInfo.html" ><strong>Sale/Rent</strong> </a>	
+				   <ul class="dropdown-menu dropdown-menu-left">
+					   <li><a href="Sponsor/spon_gift.html" >Sale</a></li>
+					  <li><a href="Sponsor/Sponsor.html" >Rent</a></li>
+					</ul>
+				  </li>				
+				  <li >
+					<a href="project/project.html" ><strong>artist</strong></a>
+				  </li>	
+					<li >
+					<a href="project/project.html" ><strong>notice</strong></a>
+				  </li>		
+				  <li class="dropdown">
+					<a href="team/team.html" ><strong>Contact</strong></a>
+				  </li>
+				</ul>	
+		</div>     
+      </div>
+    </nav>
+	
+	
+   
+
+
+
+        <div class="container"> 
+		<div id="carousel-example-generic" class="carousel slide">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				   <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				</ol>
+					 <!-- Carousel items -->
+				 <div class="carousel-inner">
+					<div class="item active">
+						<a href="exhibition/exhibitionInfo.html"><img src="image/intro_1.jpg" alt="First slide">   </a>            
+					</div>
+					<div class="item">
+					   <a href="challenge/challengeInfo.html"><img width = "100%" src="image/sale_rent.jpg" alt="Third slide">      </a>         
+					</div>      
+					<div class="item">
+					   <a href="exhibition/exhibitionInfo.html"><img src="image/artist.jpg" alt="Second slide">   </a>            
+					</div>
+					
+					<div class="item">
+					   <a href="Sponsor/spon_gift.html"><img width = "100%" src="image/contact.jpg" alt="Third slide">      </a>         
+					</div>      
+				</div>
+				 <p>&nbsp;</p>
+				<!-- Controls -->
+				  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+					<span class="icon-prev"></span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+					<span class="icon-next"></span>
+				  </a>
+				  
+              
+          </div>
+  		</div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+          $('.carousel').carousel()
+        </script>
+  
+		</div><!--container-->
+        
+   <div class="container">
+    <div class= "col-md-12">
+		<div class = "col-md-12 " style="margin-top:30px"> <img = src="image/title-01.jpg" width="100%" height ="100%"/> </div>
+
+	</div>
+    
+    <div class= "col-md-12" style="margin-top:20px;"><img src="image/intro_2.jpg" width="100%" /></div>
+	<div class = "col-md-12 " style="margin-top:30px"> <img = src="image/title-02.jpg" width="100%" height ="100%"/> </div>
+
+    <div class= "col-md-12" style="margin-top:20px;"><a href = "challenge/challengeInfo.html"><img src="image/sale_rent.jpg" width="100%" /></div>
+	<div class = "col-md-12 " style="margin-top:30px"> <img = src="image/title-04.jpg" width="100%" height ="100%"/> </div>
+    <div class= "col-md-12" style="margin-top:20px;"><img src="image/artist.jpg" width="100%" /></div>
+    <div class = "col-md-12 " style="margin-top:30px"> <img = src="image/title-03.jpg" width="100%" height ="100%"/> </div>
+	<div class= "col-md-12" style="margin-top:20px;"><img src="image/contact.jpg" width="100%" /></div>
+    <div class = "col-md-12 " style="margin-top:30px"> <img = src="image/title-05.jpg" width="100%" height ="100%"/> </div>
+	<p>&nbsp;</p>
+	    <div id="footer">
+        	<footer>
+            	<div class="container">
+                	<!--<div id="logo"><img src = "image/logo.jpg" width="200px" height = "200px"/></div>
+            	-->	<div id = "adress">
+            		  <p>&nbsp;</p>
+            		  <p>브랜드 정보 / 사업자 정보</p>
+            		  <p>&nbsp;</p>
+            		</div>
+                    
+                	<div>
+                	  <p>&nbsp;</p>
+                	<p style = "font-size:18px">2017 도전과제 <strong>Hyeong Cheol Kim & 나혜</strong> </p>
+                	</div>
+                </div>
+            </footer>
+		</div> 
+	</body>
+</html>

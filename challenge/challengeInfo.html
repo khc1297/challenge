@@ -1,0 +1,339 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset = "utf-8">
+			<meta http-equiv="X-UA-Compatible" content = "IE=edge">
+			<meta name = "viewport" content="width=device-width, initial-scale=1">
+			<meta http-equiv="page-enter" content="blendTrans(duration=0.3)">
+			<meta http-equiv="page-exit" content="blendTrans(duration=0.3)">
+			
+			<meta property="fb:app_id" content="1900253010253858" />
+			<meta property="og:type" content="website" />
+			<meta property="og:title" content="FillRoom2017" />
+			<meta property="og:url" content="www.fillroom2017.com/exhibition/exhibionInfo.html" />
+			<meta property="og:description" content="2017 도전과제" />
+			<meta property="og:image" content="../image/logo_sumnail.jpg" />
+			
+			
+			<link type="text/css" rel="stylesheet" href="../css/stylesheet.css"/>
+			<link href="../css/bootstrap.css" rel="stylesheet" />
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			<script src="../js/bootstrap.js"></script>
+    	    <script src="../js/modernizr.js"></script>  <!--Modernizr -->
+			<script src="../js/jquery-2.1.1.js"></script>
+			<script src="../js/jquery.mixtup.min.js"></script>
+			<script src="../js/filter.js"></script> 
+
+		<title>도전과제</title>
+			
+	</head>
+
+	<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<!-- C and toggle get grouped for better mobile display -->
+			<div class="container"> 
+      
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+			<a class="navbar-C" href="../index.html"><img src="../image/logo.jpg" height="40px" onmouseover="this.src='../image/logo_focus.png'" onmouseout="this.src='../image/logo.jpg'" /></a>
+           	</div>
+		
+	
+      <!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse  navbar-ex1-collapse">
+				<ul class="nav navbar-nav navbar-right ">			
+				    <li >
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+								<div id="id01" class="modal">
+								  
+								  <form class="modal-content animate" action="/action_page.php">
+									
+
+									<div class="container">
+									  <label><b>Username</b></label>
+									  <input type="text" placeholder="Enter Username" name="uname" required>
+
+									  <label><b>Password</b></label>
+									  <input type="password" placeholder="Enter Password" name="psw" required>
+										
+									  <button type="submit">Login</button>
+									  <input type="checkbox" checked="checked"> Remember me
+									</div>
+
+									<div class="container" style="background-color:#f1f1f1">
+									  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+									  <span class="psw">Forgot <a href="#">password?</a></span>
+									</div>
+								  </form>
+								</div>
+								
+								<script>
+								// Get the modal
+								var modal = document.getElementById('id01');
+
+								// When the user clicks anywhere outside of the modal, close it
+								window.onclick = function(event) {
+									if (event.target == modal) {
+										modal.style.display = "none";
+									}
+								}
+								</script>
+				  </li>	
+				  <li class="dropdown" >
+					<a class="dropdown-toggle"  href="../challenge/challengeInfo.html" ><strong>Sale/Rent</strong> </a>	
+				   <ul class="dropdown-menu dropdown-menu-left">
+					   <li><a href="Sponsor/spon_gift.html" >Sale</a></li>
+					  <li><a href="Sponsor/Sponsor.html" >Rent</a></li>
+					</ul>
+				  </li>				
+				  <li >
+					<a href="project/project.html" ><strong>artist</strong></a>
+				  </li>	
+					<li >
+					<a href="project/project.html" ><strong>notice</strong></a>
+				  </li>		
+				  <li>
+					<a href="team/team.html" ><strong>Contact</strong></a>
+				  </li>
+				</ul>	
+		</div>     
+      </div>
+    </nav>	
+    <div class="container">
+    <main class="cd-main-content" style = "margin-top:100px">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder"> 
+						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+					</li> 
+                    
+					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+					<li class="filter" data-filter=".A"><a href="#0" data-type="A">A</a></li>
+					<li class="filter" data-filter=".B"><a href="#0" data-type="B">B</a></li>
+					<li class="filter" data-filter=".C"><a href="#0" data-type="C">C</a></li>
+					<li class="filter" data-filter=".D"><a href="#0" data-type="D">D</a></li>
+					
+                    
+                </ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <section class="cd-gallery">
+        
+        <ul>
+        	<li class="col-me-2 mix A project_box">
+            <a href="threamers/project_threamers.html"  >
+                <div class="ArtName_box">&nbsp;<strong>A1</strong>&nbsp;[A]</div>
+                <img src="image/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;A1_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            <li class="col-me-2 mix A project_box">
+            <a href="talkpeople/project_talkpeople.html"  >
+                <div class="ArtName_box">&nbsp;<strong>A2</strong>&nbsp;[A]</div>
+                <img src="talkpeople/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;A2_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>            </li>
+            </li>
+
+            <li class="col-me-2 mix A project_box">
+            <a href="musician/project_musician.html"  >
+                <div class="ArtName_box">&nbsp;<strong>A3</strong>&nbsp;[A]</div>
+                <img src="musician/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;A3_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+			
+            <li class="col-me-2 mix A project_box">
+            <a href="nein/project_nein.html"  >
+                <div class="ArtName_box">&nbsp;<strong> A4</strong>&nbsp;[A]</div>
+                <img src="nein/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;A4_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            
+            
+        	<li class="col-me-2 mix B project_box">
+            <a href="yellowblock/project_yellowblock.html"  >
+                <div class="GameName_box">&nbsp;<strong>B1</strong>&nbsp;[B]</div>
+                <img src="yellowblock/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;B1_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            <li class="col-me-2 mix B project_box">
+            <a href="candlewick/project_candlewick.html"  >
+                <div class="GameName_box">&nbsp;<strong>B2</strong>&nbsp;[B]</div>
+                <img src="candlewick/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;B2_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            <li class="col-me-2 mix B project_box">
+            <a href="jdle/project_jdle.html"  >
+                <div class="GameName_box">&nbsp;<strong>B3</strong>&nbsp;[B]</div>
+                <img src="jdle/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;B3_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            <li class="col-me-2 mix B project_box">
+            <a href="rudens/project_rudens.html"  >
+                <div class="GameName_box">&nbsp;<strong>B4</strong>&nbsp;[B]</div>
+                <img src="rudens/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;B4_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            
+            <li class="col-me-2 mix C project_box">
+            <a href="maddy/project_maddy.html"  >
+                <div class="BrandName_box">&nbsp;<strong>C1</strong>&nbsp;[C]</div>
+                <img src="maddy/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;C1_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            <li class="col-me-2 mix C project_box">
+            <a href="eyeeye/project_eyeeye.html"  >
+                <div class="BrandName_box">&nbsp;<strong>C2</strong>&nbsp;[C]</div>
+                <img src="eyeeye/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;C2_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            <li class="col-me-2 mix C project_box">
+            <a href="rbeauty/project_rbeauty.html"  >
+                <div class="BrandName_box">&nbsp;<strong>C3</strong>&nbsp;[C]</div>
+                <img src="rbeauty/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;C3_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            <li class="col-me-2 mix C project_box">
+            <a href="trang/project_trang.html"  >
+                <div class="BrandName_box">&nbsp;<strong>C4</strong>&nbsp;[C]</div>
+                <img src="trang/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;C4_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            
+            <li class="col-me-2 mix D project_box">
+            <a href="nikonikotin/project_nikonikotin.html"  >
+                <div class="TechName_box">&nbsp;<strong>D1</strong>&nbsp;[D]</div>
+                <img src="nikonikotin/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;D1_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            <li class="col-me-2 mix D project_box">
+            <a href="hotbreak/project_hotbreak.html"  >
+                <div class="TechName_box">&nbsp;<strong>D2</strong>&nbsp;[D]</div>
+                <img src="hotbreak/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;D2_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+                       
+            <li class="col-me-2 mix D project_box">
+            <a href="root/project_root.html"  >
+                <div class="TechName_box">&nbsp;<strong>D3</strong>&nbsp;[D]</div>
+                <img src="root/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;D3_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+            <li class="col-me-2 mix D project_box">
+            <a href="appdung/project_appdung.html"  >
+                <div class="TechName_box">&nbsp;<strong>D4</strong>&nbsp;[D]</div>
+                <img src="appdung/thumb.jpg" width="100%">
+                </a>
+                <div class="project_summary">&nbsp;D4_</div>
+                <a class="project_member"><img src="icon/profile.png" width="4%"/> title[artist] </a> 
+                <a class="project_tag"><img src="icon/tag.png" width="4%"/>hashtag</a>
+            </li>
+            
+              
+        
+        
+        
+        <li class="gap"></li>
+		<li class="gap"></li>
+		<li class="gap"></li>
+      </ul>  
+      </section>
+      </main> 
+
+  
+    
+	</div>
+	<p>&nbsp;</p>
+    <div id="footer">
+        	<footer>
+            	<div class="container">
+                	<!--<div id="logo"><img src = "image/logo.jpg" width="200px" height = "200px"/></div>
+            	-->	<div id = "adress">
+            		  <p>&nbsp;</p>
+            		  <p>브랜드 정보 / 사업자 정보</p>
+            		  <p>&nbsp;</p>
+            		</div>
+                    
+                	<div>
+                	  <p>&nbsp;</p>
+                	<p style = "font-size:18px">2017 도전과제 <strong>Hyeong Cheol Kim & 나혜</strong> </p>
+                	</div>
+                </div>
+            </footer>
+		</div> 
+   
+</body>
+</html>
